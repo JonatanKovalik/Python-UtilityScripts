@@ -50,4 +50,3 @@ This project is open-sourced under the MIT License. See the [LICENSE](LICENSE) f
 
 Feel free to reach out if you have any questions or collaboration ideas:
 * Email: jonatan.kovalik@gmail.com
-* [Your LinkedIn Profile URL (Optional)]
