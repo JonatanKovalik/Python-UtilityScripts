@@ -7,6 +7,7 @@ import tkinter as tk
 from tkinter import PhotoImage
 
 #global
+#the Username and the Password they are a random text
 Username = "A,BCDEFGH,IJKLM_NOPQ,RS,Z"
 Password = "A,BCDE34FGH,IJKLM_NOPQ,RS,Z565A,BCDEFGH,IJ3KLM_NOPQ,RS,ZA,BCDEFGH,IJKLM_NOPQ,RS,ZA,B56CDEFGH,IJKLM_NOPQ,RS,Z"
 trys = 0
