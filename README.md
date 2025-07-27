@@ -10,15 +10,29 @@ This repository houses a collection of practical Python scripts and small applic
 
 ## ✨ Projects / Scripts Included
 
-* **[Script/Project Name 1]:** [Brief description, e.g., "A number converter script supporting various bases (binary, decimal, hexadecimal)."]
-* **[Script/Project Name 2]:** [Brief description, e.g., "A simple GUI application demonstrating Tkinter/PyQt usage for user interaction."]
-* **[Script/Project Name 3]:** [Brief description, e.g., "A file organizer script to sort files into directories based on their type."]
-* [List all other scripts/small projects here with brief descriptions.]
+* **ChronoEcho:** (Assuming this is a time-tracking/echoing app based on the name)
+    A Python script that likely deals with time manipulation or echoing user input with timestamps.
+    * [**View Project Folder**](https://github.com/JonatanKovalik/Python-UtilityScripts/tree/main/ChronoEcho) - *Note: You need to ensure the `ChronoEcho` folder exists at this path in your GitHub repo.*
+
+* **Login/Signup GUI App:**
+    A basic graphical user interface (GUI) application built with Tkinter, demonstrating user login and a placeholder signup functionality. This project focuses on initial GUI design, input handling, and basic window management.
+    * **Features:** Login screen, signup screen, basic username/password validation (for demo purposes), and multi-window navigation.
+    * **Note:** This is a demonstration of GUI principles. For real-world applications, robust security practices (like password hashing and secure data storage) would be essential.
+
+* **Base Converter (Decimal to Binary & Binary to Decimal):**
+    A command-line utility that converts numbers between base 10 (decimal) and base 2 (binary). It provides a simple interface for users to choose the desired conversion and handles basic input validation.
+    * **Features:** Converts decimal to binary, converts binary to decimal, handles invalid number inputs, and allows multiple conversions in one session.
+
+* **Simple Tkinter Window Demo:**
+    A minimal Python script using Tkinter to create and center a basic GUI window. Useful for quickly setting up a graphical application's main frame.
 
 ## 🛠️ Technologies Used
 
-* **Language:** Python [Version, e.g., 3.9+]
-* **Libraries (if any):** [e.g., Tkinter, Pandas, Requests]
+* **Language:** Python 3.x
+* **Libraries:**
+    * `tkinter` (for GUI applications)
+    * `time` (for delays in console applications)
+    * Standard Python libraries for string manipulation, input/output, and error handling.
 * **IDE:** Visual Studio Code (or preferred Python IDE)
 * **Version Control:** Git, GitHub
 
@@ -30,17 +44,39 @@ This repository houses a collection of practical Python scripts and small applic
     ```
 2.  **Navigate to the script's directory:**
     ```bash
-    cd Python-UtilityScripts/[ScriptOrProjectName]
+    cd Python-UtilityScripts/
     ```
-3.  **Run the script:**
-    ```bash
-    python [script_name].py
-    ```
+3.  **Run a specific script:**
+    * **For the Login/Signup GUI App:**
+        ```bash
+        python your_login_app_file_name.py # Replace with the actual file name
+        ```
+    * **For the Base Converter:**
+        ```bash
+        python your_base_converter_file_name.py # Replace with the actual file name
+        ```
+    * **For ChronoEcho:**
+        ```bash
+        cd ChronoEcho
+        python your_chrono_echo_file_name.py # Replace with the actual file name
+        ```
+    * **For Simple Tkinter Window Demo:**
+        ```bash
+        python your_simple_tkinter_file_name.py # Replace with the actual file name
+        ```
     *(If it's a GUI application, it will open a window. For console scripts, output will be in the terminal.)*
 
 ## 🧠 Learning & Development
 
-Working on these utility scripts has deepened my understanding of [mention specific learning, e.g., file system interactions, command-line argument parsing, basic GUI development, exception handling]. Each script presented a unique problem-solving opportunity and allowed me to apply Python's extensive standard library effectively.
+Working on these utility scripts has deepened my understanding of:
+
+* **GUI Development with Tkinter:** Learning to create interactive windows, widgets (labels, entries, buttons), and handle user events.
+* **Input Validation & Error Handling:** Implementing `try-except` blocks to gracefully manage invalid user inputs in console applications.
+* **Modular Programming:** Structuring code into functions for better organization and reusability.
+* **Basic Algorithm Design:** Developing logic for tasks like base conversion and user authentication flow.
+* **File System Interactions:** (Potentially, if ChronoEcho or other future scripts involve file operations).
+
+Each script presented a unique problem-solving opportunity and allowed me to apply Python's extensive standard library effectively.
 
 ## 📄 License
 
@@ -50,3 +86,4 @@ This project is open-sourced under the MIT License. See the [LICENSE](LICENSE) f
 
 Feel free to reach out if you have any questions or collaboration ideas:
 * Email: jonatan.kovalik@gmail.com
+* [Your LinkedIn Profile URL (Optional)]
